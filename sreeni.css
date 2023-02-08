@@ -1,0 +1,375 @@
+
+@font-face {
+    font-family: sreeni;
+    src: url(/static/DancingScript-Bold.ttf);
+}
+body,html{
+    background: url(2ygv7ssy2k0lxlzu.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.header1{
+    display: flex;
+
+
+    
+}
+.name{
+    color:white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.5s all;
+    cursor: pointer;
+
+
+
+}
+.name:hover{
+    background-color: brown;
+    border: 2px solid green;
+
+}
+.active{
+    color: white !important;
+}
+.nav-link{
+    border-radius: 5px ;
+    transition: 0.5s all;
+    background-color: green;
+    padding: 15px !important;
+    color: aliceblue;
+    width: 100%;
+
+}
+.nav-link:hover{
+    border-radius: 5px ;
+    background-color: brown;
+    color: white!important;
+
+    
+}
+
+.nav-item{
+   border:  1px solid white;
+}
+
+.navbar-nav{
+    z-index: 9999;
+    position: relative;
+    background-color: green;
+    width: max-content;
+}
+
+.box{
+    transition: 0.5s all;
+}
+
+.box:hover{
+    background-color: green !important;
+    cursor: pointer;
+    border: 2px solid white !important;
+    box-shadow: 0px 0px 52px green;
+}
+
+.quote{
+
+
+    padding: 10px;
+    color: white;
+    margin-block-start: 0px;
+    display: flex;
+    justify-content: end;
+    margin-block-end: 0px;
+    font-family: sreeni;
+    font-weight: bold !important;
+    font-size: 30px !important;
+    outline-color: black;
+    
+    
+}
+
+.card-title{
+    margin: 0 !important;
+    background-color: black !important;
+}
+
+
+
+
+pre{
+    border-radius: 25px;
+}
+
+
+.card{
+    height:max-content;
+    align-items: center;
+    transition: 0.5s all;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    background-color: transparent !important;
+    border: 0px;
+
+}
+.card-img-top {
+    width: 50%;
+    height: 170px;
+}
+
+
+
+.card-body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: black;
+    width: 100%;
+}
+
+.card-bodyy{
+    display: flex;
+    flex-direction: column
+    ;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 19px;
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+
+}
+.card-bodyy:hover{
+    display: flex;
+    justify-content: center;
+color: rgb(7, 3, 3);    
+margin-top: 19px;
+
+}
+
+.cardd{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 5px solid brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s all;
+    position: relative;
+}
+.cardd:hover{
+    background-color: #706c61;
+    cursor: pointer;
+    border: 5px solid white;
+    color: brown !important;
+    font-weight: bold;
+}
+
+.click{
+    color: white;
+    background-color: #706c61;
+    border: 2px solid white;
+    background-color: brown;
+    border-radius: 12px;
+}
+
+.click:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid brown;
+
+}
+
+.img{
+    width: 100%;
+    
+}
+.subimg{
+    position: absolute;
+    width: 59px;
+    top: 46px;
+}
+
+
+h5{
+    font-weight: bold;
+}
+
+.leaves{
+    width: 180px;
+    height: 180px;
+    transform: translateY(-10px);
+}
+
+.chain{
+    transform: translateY(-78px);
+    width: 90% !important;
+  
+}
+
+.details{
+    position: absolute;
+    top: 92px;
+    font-family: cursive;
+}
+
+.subdetails{
+    position: absolute;
+    top: 135px;
+    font-family: cursive;
+    color: black;
+    font-weight: bold;
+
+}
+
+.chain:hover{
+    cursor: pointer;
+    animation: animation 2s linear infinite;
+    
+}
+.chain:hover ~ .subdetails{
+    animation: animation 2s linear infinite;
+
+
+}
+.chain:hover ~ .details{
+    animation: animation 2s linear infinite;
+
+
+}
+
+
+
+@keyframes animation{
+    0%{
+        rotate: 0deg;
+    }
+    30%{
+        rotate: 3deg;
+    }
+    60%{
+        rotate: 0deg;
+    }
+    90%{
+        rotate:-3deg
+    }
+    100%{
+        rotate:0deg
+    }
+}
+
+
+.rope{
+    height: 34px;
+    width: 100vw;
+}
+.clip{
+    transform: translateY(-120px);
+    width: 70% !important;
+
+    animation: skew 2s linear infinite ;
+}
+
+.skills{
+    position: absolute;
+    top: -48px;
+    font-family: cursive;
+    width: 28%;
+}
+.skillsubdetails{
+    
+    position: absolute;
+    top: 50px;
+    font-family: cursive;
+    color: black;
+    font-weight: bold;
+
+}
+
+
+
+@keyframes skew {
+
+    0%{
+        transform: rotateX(0px);
+    }
+
+
+    30%{
+        transform: rotateX(15px);
+    }    
+
+    
+    60%{
+        transform: rotateX(0px);
+    }
+
+    
+    90%{
+        transform: rotateX(-5px);
+    }
+    100%{
+        transform: rotateX(0px);
+    }
+}
+
+
+.navbar-toggler{
+    background-color: white;
+    border-radius: 5px;
+    transform: translateY(-7px);
+}
+
+
+
+
+/*media query */
+
+
+@media  screen and (max-width:767px) {
+
+  .card2{
+    transform: translateY(41px);
+  }
+}
+
+
+
+@media  screen and (max-width:500px) {
+
+   .quote{
+    font-size: 20px !important;
+   }
+  }
+  
+
+  @media  screen and (max-width:400px) {
+
+    .name{
+     font-size: 15px !important;
+    }
+
+    .sreenipic{
+        width: 180px !important;
+    }
+
+    .navbar-toggler{
+        transform: translateY(-11px);
+    }
+   }
+   
+
+
+
+
+
+
+
